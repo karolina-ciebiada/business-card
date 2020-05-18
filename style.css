@@ -1,10 +1,17 @@
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
 body{
     background-color: #271B72;
-    font-family: Arial, Helvetica, sans-serif;
     display:flex;
     align-items:center;
     justify-content:center;
     min-height:100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
 .main__content
@@ -12,6 +19,47 @@ body{
   margin:16px;
     width:624px;
     background-color: #fff;
+    padding:30px;
 }
 .content__image{
-border:1px solid #271B72;}
+border:1px solid #271B72;
+margin-right:30px;
+}
+.person{
+    display:flex;
+    align-items:flex-start;
+}
+
+.header{
+    margin:0;
+    font-weight: normal;
+    font-size:36px;
+}
+.header__description
+{
+    margin-bottom:24px;
+    margin-top:0;
+    font-size:18px;
+    font-style:italic;
+    color:#271B72;
+
+}
+.content{
+    font-size:14px;
+    line-height:120%;
+    margin:10px 0 0 0;
+}
+.special
+{
+    font-weight:normal;
+}
+.link
+{
+    text-decoration:none;
+    color:#E30613;
+}
+.contact{
+    margin:0;
+    margin-top:20px;
+    font-size:14px;
+}
